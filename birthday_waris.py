@@ -463,7 +463,7 @@ def show_premium_countdown():
     if days > 0 or hours > 0 or minutes > 0 or seconds > 0:
         st.markdown("""
         <div class="premium-container reflection">
-            <h2 style="text-align: center; font-family: 'Playfair Display', serif; margin-bottom: 30px;">
+            <h2 style="text-align: center; font-family: 'Playfair Display', serif; margin-bottom: 30px; color: black;">
                 Waris's Birthday Celebration
             </h2>
         """, unsafe_allow_html=True)
